@@ -1,0 +1,61 @@
+/* Body */
+body {
+  background-image: linear-gradient(to bottom right, #00bfff, #87cefa);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  color: white;
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+/* Form */
+form {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+/* Labels */
+label {
+  color: #666;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Inputs */
+input[type="text"],
+select,
+input[type="radio"] {
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #00bfff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  width: auto;
+}
+
+input[type="submit"]:hover {
+  background-color: #87cefa;
+}
